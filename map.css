@@ -1,0 +1,263 @@
+@font-face {
+    font-family: head;
+    src: url(EA\ Sports\ Covers\ SC\ 1.5.ttf);
+  }
+  @import url(https://fonts.googleapis.com/css?family=Montserrat);
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: head;
+  }
+  
+  @media (min-width: 500px) {
+    
+    body {
+      width: 100%;
+      background-color: black;
+    }
+  
+    #cursor {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: rgb(254, 240, 195);
+      position: fixed;
+      z-index: 199;
+    }
+  
+    #nav {
+      height: 14vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: fixed;
+      z-index: 999;
+    }
+  
+    #navleft img {
+      width: 7vw;
+      margin-left: 3vw;
+    }
+  
+    #navright {
+      display: flex;
+      align-items: center;
+      gap: 3vw;
+      margin-right: 3vw;
+    }
+  
+    #navright a {
+      font-size: 1.4vw;
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+  
+    #main {
+      width: 100%;
+    }
+  
+    #page1 {
+      width: 100%;
+      height: 86vh;
+      color: rgb(255, 255, 255);
+      display: flex;
+      margin-top: 11vh;
+    }
+
+    #map {
+        width: 100%;
+        height: 86vh;
+        background-color: red;
+    }
+    .Firstbox {
+        width: 40vh;
+        height: 17vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: rgb(245, 230, 182);
+        z-index: 50;
+        border-radius: 3vh;
+      }
+    
+       #box {
+        width: 25%;
+        height: 10vh;
+      }
+
+      #box img {
+        width: 100%;
+        height: 100%;
+      }
+    
+      #cont {
+        width: 60%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        margin-right: -2vw;
+      }
+      #cont button {
+        width: 50%;
+        height: 4vh;
+        border: black;
+        border-radius: 2vh;
+        margin-top: 1vh;
+      }
+
+    #content {
+        width: 22vw;
+        height: 16vh;
+        background-color: rgb(245, 230, 182);
+        border-radius: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        position: fixed;
+        top: 75vh;
+        left: 72vw;
+        color: black;
+    }
+    #busani {
+      position: fixed;
+      top: -1vh;
+      z-index: 9999;
+      width: 100%;
+      height: 110vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #000000;
+  }
+
+    #ani {
+      display: flex;
+      position: relative;
+      top: -15%;
+    }
+
+  }
+
+  gmp-advanced-marker {
+    background-image: url('bus-school.png');
+    /* other marker styles */
+  }
+  
+  @media (max-width:500px) {
+    body {
+      width: 100%;
+      background-color: #000;
+    }
+  
+    #nav {
+      height: 5vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: fixed;
+    }
+  
+    #navleft img {
+      width: 14vw;
+      margin-left: 3vw;
+    }
+  
+    #navright {
+      display: flex;
+      align-items: center;
+      gap: 4vw;
+      margin-right: 3vw;
+    }
+    #navright a {
+      font-size: 3vw;
+      color: rgb(254, 240, 195);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    #p1left video {
+       width: 0px;
+       height: 0px;
+    }
+    #main {
+      width: 100%;
+    }
+
+    #page1 {
+        width: 100%;
+        height: 90vh;
+        color: rgb(255, 255, 255);
+        display: flex;
+        margin-top: 2.5vh;
+      }
+  
+      #map {
+          width: 100%;
+          height: 90vh;
+          background-color: red;
+      }
+      .Firstbox {
+          width: 40vh;
+          height: 17vh;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          background-color: rgb(245, 230, 182);
+          z-index: 50;
+          border-radius: 3vh;
+        }
+      
+         #box {
+          width: 25%;
+          height: 8vh;
+        }
+
+        #box img {
+          width: 100%;
+          height: 100%;
+        }
+      
+        #cont {
+          width: 60%;
+          display: flex;
+          position: relative;
+          flex-direction: column;
+          margin-right: -2vw;
+        }
+  
+      #content {
+          width: 50vw;
+          height: 15vh;
+          background-color: rgb(245, 230, 182);
+          border-radius: 5vh;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          position: fixed;
+          top: 73vh;
+          left: 45vw;
+          color: black;
+      }
+
+      #busani {
+        position: fixed;
+        z-index: 9999;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #000;
+        margin-top: -5vh;
+    }
+  
+      #ani {
+        display: flex;
+        position: relative;
+        /* top: -15%; */
+      }
+  
+  }

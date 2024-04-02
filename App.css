@@ -1,0 +1,234 @@
+@font-face {
+  font-family: head;
+  src: url(EA\ Sports\ Covers\ SC\ 1.5.ttf);
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: head;
+}
+
+@media (min-width: 600px) {
+  
+  body {
+    width: 100%;
+    background-color: black;
+  }
+
+  #cursor {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgb(254, 240, 195);
+    position: fixed;
+    z-index: 199;
+  }
+  #blur {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(254, 240, 195);
+    position: fixed;
+    z-index: 30;
+    filter: blur(90px);
+  }
+
+  #nav {
+    height: 14vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: transparent;
+    z-index: 999;
+    
+  }
+
+  #navleft img {
+    width: 7vw;
+    margin-left: 3vw;
+  }
+
+  #navright {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    margin-right: 3vw;
+  }
+
+  #navright a {
+    font-size: 1.4vw;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  #main {
+    width: 100%;
+  }
+
+  #page1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+  }
+  #busSelect {
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .Firstbox {
+    width: 44vh;
+    height: 17vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(245, 230, 182);
+    z-index: 50;
+    border-radius: 3vh;
+  }
+
+   #box {
+    width: 30%;
+    height: 10vh;
+  }
+
+  #box img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #cont {
+    width: 60%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-right: -2vw;
+  }
+  #cont button {
+    width: 50%;
+    height: 4vh;
+    border: black;
+    border-radius: 2vh;
+    margin-top: 1vh;
+  }
+  #cont button a {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+    
+@media (max-width:400px) {
+  body {
+    width: 100%;
+    background-color: #000;
+  }
+
+  #nav {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: transparent;
+    z-index: 999;
+    
+  }
+
+  #navleft img {
+    width: 14vw;
+    margin-left: 3vw;
+  }
+
+  #navright {
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+    margin-right: 3vw;
+  }
+  #navright a {
+    font-size: 3vw;
+    color: rgb(254, 240, 195);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  #p1left video {
+     width: 0px;
+     height: 0px;
+  }
+  #main {
+    width: 100%;
+  }
+
+  #page1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+  }
+
+  #busSelect {
+    width: 30vw;
+    height: 50vh;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .Firstbox {
+    width: 40vh;
+    height: 17vh;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(245, 230, 182);
+    z-index: 50;
+    border-radius: 3vh;
+  }
+
+   #box {
+    width: 30%;
+    height: 10vh;
+  }
+
+  #box img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #cont {
+    width: 70%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-right: -20vw;
+  }
+  #cont button {
+    width: 60%;
+    height: 4vh;
+    border: black;
+    border-radius: 2vh;
+    margin-top: 1vh;
+
+  }
+  #cont button a {
+    color: black;
+    text-decoration: none;
+  }
+
+}
